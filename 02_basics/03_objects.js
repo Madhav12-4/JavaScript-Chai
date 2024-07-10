@@ -14,8 +14,8 @@ const JsUser = {
     location: "Jaipur",
     email: "xyber@google.com",
     isLoggedIn: false,
-    lastLoginDays: ["Monday", "Saturday"],
-    greeting
+    lastLoginDays: ["Monday", "Saturday"]
+    
 }
 
 // console.log(JsUser.email)
@@ -24,10 +24,10 @@ const JsUser = {
 // console.log(JsUser[mySym])
 
 JsUser.email = "xyber@chatgpt.com"
-Object.freeze(JsUser)
+// Object.freeze(JsUser)
 JsUser.email = "sachin@microsoft.com"
 // console.log(JsUser);
-
+JsUser.math = "Badhiya"
 JsUser.greeting = function(){
     console.log("Hello JS user");
 }
@@ -37,3 +37,4 @@ JsUser.greetingTwo = function(){
 
 console.log(JsUser.greeting());
 console.log(JsUser.greetingTwo());
+console.log(JsUser);
